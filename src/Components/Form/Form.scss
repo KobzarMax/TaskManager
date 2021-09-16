@@ -1,0 +1,30 @@
+@import "../../style/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 400px;
+    height: 150px;
+    &-submit {
+      display: block;
+      background-color: $main-color;
+      color: $font-color;
+      border: none;
+      font-size: 1rem;
+      width: 100px;
+      height: 25px;
+      margin: 0 auto;
+      margin-top: 1rem;
+    }
+    &-add__container,
+    &-input {
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+    &-input{
+     font-size: 1.5rem;
+
+    }
+  }

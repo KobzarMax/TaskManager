@@ -1,0 +1,23 @@
+
+
+
+.key { 
+    text-decoration: line-through;
+}
+
+
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__trash{
+        margin-left: .8rem;
+        justify-content: center;
+        border: 1px solid white;
+    }
+    i{
+        padding: 1rem;
+        width: 100%;
+    }
+}
